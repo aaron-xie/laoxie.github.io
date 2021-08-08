@@ -4,11 +4,11 @@
 baseurl:
 url: https://mazhuang.org
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
-timezone: Asia/Shanghai
+title: 老谢的博客
+subtitle: "思路远比代码本身重要"
+description: "老谢的博客"
+keywords: 老谢的博客, 前端, H5
+timezone: Asia/GuangZhou
 encoding: "utf-8"
 side_bar_repo_limit: 5
 repository: mzlogin/mzlogin.github.io
@@ -26,7 +26,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: false
-        start_date: 2020-05-03
+        start_date: 2021-08-09
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -38,7 +38,7 @@ components:
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
         enabled: true
-        image_alt: 闷骚的程序员
+        image_alt: 老谢的博客
 # 压缩页面内容
 compress_html:
   clippings: all
@@ -49,12 +49,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: laoxie
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: aaron-xie
+location: Guangzhou, China
+email: jeroo@qq.com
 
 # ---------------- #
 #    Navigation    #
@@ -131,14 +131,14 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
+    owner: laoxie
     repo: blog-comments
     oauth:
         client_id: d2e1cbbd298958076462
         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: laoxie
     repo: blog-comments
     clientID: d2e1cbbd298958076462
     clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
